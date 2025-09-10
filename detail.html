@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Detalle del Libro - Tienda de Libros</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1><a href="index.html">📚 Tienda de Libros</a></h1>
+    <nav class="nav-links">
+      <a href="login.html">Login</a>
+      <a href="favorites.html">Favoritos ❤️</a>
+      <a href="cart.html">Carrito 🛒</a>
+    </nav>
+  </header>
+
+  <main class="detail-container">
+    <div class="book-image">
+      <img id="book-cover" src="" alt="Portada del libro" />
+    </div>
+    <div class="book-info">
+      <h2 id="book-title">Título del libro</h2>
+      <p><strong>Autor:</strong> <span id="book-author">Autor desconocido</span></p>
+      <p><strong>Precio:</strong> S/ <span id="book-price">0.00</span></p>
+      <p><strong>Stock disponible:</strong> <span id="book-stock">0</span></p>
+      <p id="book-description">Descripción breve del libro...</p>
+
+      <div class="actions">
+        <button id="btn-favorite" class="btn-fav">Agregar a Favoritos ❤️</button>
+        <button id="btn-add-cart" class="btn-cart">Agregar al Carrito 🛒</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/utils.js"></script>
+  <script src="assets/script.js"></script>
+
+</body>
+</html>

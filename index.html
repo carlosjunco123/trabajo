@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Libros</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1><a href="index.html">TIENDA</a></h1>
+
+    <form class="search-bar" action="#" method="GET">
+      <input type="text" name="search" placeholder="Buscar por título, autor o ISBN" aria-label="Buscar libros" />
+      <button type="submit" aria-label="Buscar">🔍</button>
+    </form>
+
+    <nav class="nav-links">
+      <a href="register.html">Regístrate</a>
+      <a href="cart.html">Carrito 🛒</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección Preventa -->
+    <section class="preventa">
+      <h2>PREVENTA</h2>
+      <button class="btn-compra">Compra aquí</button>
+      <img src="https://m.media-amazon.com/images/I/91G2hnAVQgL._UF1000,1000_QL80_.jpg" alt="Portada del libro 'Alchemised'" />
+      <p>Sobrevivir fue solo el inicio. Ahora, deben enfrentar lo que quedó de ellos.</p>
+    </section>
+
+    <!-- Sección Nuevas Historias -->
+    <section class="nuevas-historias">
+      <h3>📚🌈 Nuevas historias por descubrir ✨⭐</h3>
+
+      <div class="libros-lista">
+        <!-- Libro 1 -->
+        <div class="libro-item">
+          <img src="https://m.media-amazon.com/images/I/41zvrS0-WsL._SL500_.jpg" alt="Portada del libro de Cho Nam-Joo" />
+          <h4>Cho Nam-Joo</h4>
+          <p>Lo que sabe la señorita Kim</p>
+          <p><span class="precio">S/ 89.00</span></p>
+        </div>
+
+        <!-- Libro 2 -->
+        <div class="libro-item">
+          <img src="https://www.elvirrey.com/imagenes/9786124/978612498377.GIF" alt="Portada del libro 'Mentalidad Millonaria' de José Verona" />
+          <h4>José Verona</h4>
+          <p>Mentalidad Millonaria</p>
+          <p><span class="precio">S/ 79.00</span></p>
+        </div>
+
+        <!-- Puedes seguir agregando más libros aquí -->
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

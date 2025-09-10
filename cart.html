@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>🛒 Tu Carrito</h1>
+    <nav class="nav-links">
+      <a href="index.html">← Volver a la tienda</a>
+    </nav>
+  </header>
+
+  <main class="carrito-container">
+    <section id="cart-items" class="cart-items">
+      <!-- Aquí se insertarán los productos del carrito con JS -->
+    </section>
+
+    <section class="cart-summary">
+      <h2>Total</h2>
+      <div id="cart-total" class="cart-total">S/ 0.00</div>
+      <button class="btn-compra" onclick="checkout()">Simular Compra</button>
+    </section>
+  </main>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
